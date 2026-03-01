@@ -1,9 +1,9 @@
-# Skitouring — triangle detection in an undirected graph (Python)
+# Skitouring -triangle detection in an undirected graph (Python)
 
 Course project for **Algorithms & Data Structures**.
 
 The program models a network of shelters and ski routes as an **undirected graph** and determines which competitors (starting in shelters `1..K`) can finish the stage.  
-A competitor starting at vertex `i` finishes if and only if there exist distinct vertices `u, v` such that edges `(i, u)`, `(i, v)` and `(u, v)` exist — i.e. `i` belongs to at least one **triangle** (a 3-cycle).
+A competitor starting at vertex `i` finishes if and only if there exist distinct vertices `u, v` such that edges `(i, u)`, `(i, v)` and `(u, v)` exist -i.e. `i` belongs to at least one **triangle** (a 3-cycle).
 
 ## What’s inside
 
